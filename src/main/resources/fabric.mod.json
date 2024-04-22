@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dungeonmob",
+	"version": "${version}",
+	"name": "DungeonMob",
+	"description": "This mod was made by DadaCap\nIt is currently a beta version.",
+	"authors": [
+		"DadaCap"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dungeonmob/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dadacap.dungeonmob.DungeonMob"
+		],
+		"client":  [
+			"net.dadacap.dungeonmob.DungeonMobClient"
+		],
+		"fabric-datagen": [
+			"net.dadacap.dungeonmob.DungeonMobDataGenerator"
+		]
+	},
+	"mixins": [
+		"dungeonmob.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
