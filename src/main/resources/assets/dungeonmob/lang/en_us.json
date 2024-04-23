@@ -1,3 +1,9 @@
 {
-  "item.dungeonmob.ruby": "Ruby"
+  "item.dungeonmob.ruby": "Ruby",
+  "item.dungeonmob.raw_ruby": "Raw ruby",
+
+  "block.dungeonmob.ruby_block": "Block of Ruby",
+  "block.dungeonmob.ruby_ore": "Ruby Ore",
+
+  "itemgroup.ruby": "Ruby Group"
 }

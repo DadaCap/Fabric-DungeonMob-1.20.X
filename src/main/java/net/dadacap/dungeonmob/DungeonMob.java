@@ -1,5 +1,7 @@
 package net.dadacap.dungeonmob;
 
+import net.dadacap.dungeonmob.block.ModBlocks;
+import net.dadacap.dungeonmob.item.ModItemGroups;
 import net.dadacap.dungeonmob.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -11,6 +13,8 @@ public class DungeonMob implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroup();
 		ModItems.registerModItems();
+		ModBlocks.registerMobDlock();
 	}
 }
